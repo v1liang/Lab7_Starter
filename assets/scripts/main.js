@@ -64,7 +64,7 @@ function initializeServiceWorker() {
 //       }
 //     })
 //   }
-// }
+}
 
 /**
  * Reads 'recipes' from localStorage and returns an array of
@@ -158,3 +158,4 @@ function addRecipesToDocument(recipes) {
     main.append(recipeCard);
   });
 }
+
